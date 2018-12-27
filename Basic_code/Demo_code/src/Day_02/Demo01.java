@@ -16,7 +16,7 @@ public class Demo01 {
         //其中temp常被用作为中间变量
         int result2 = temp > z ? temp : z;
         System.out.println("三个数的最大值为" + result2);
-
+        System.out.println(123);
         //使用if else 方法求三个数的最大值
         if (a > b) {//首先需要比较a与b之间的大小
             if (a > z) {//如果a > b,那么此时还需要比较a与c之间的大小
